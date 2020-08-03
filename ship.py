@@ -23,6 +23,7 @@ class Ship:
         self.moving_right = False
         self.moving_left = False
 
+
     def update(self):
         """Update the ship's position based on the movement flag."""
         # Update the ship's x value, not the rect.
